@@ -9,13 +9,14 @@
     </style>
 
     <style name="MyToolbar" parent="@style/Widget.AppCompat.Toolbar" />
+
     <style name="MyToolbar.ActionBar">
         <item name="android:background">?attr/colorPrimary</item>
         <item name="titleTextAppearance">@style/MyTitleTextAppearance</item>
         <item name="subtitleTextAppearance">@style/MyTitleTextAppearance</item>
     </style>
 
-    <style name="MyTitleTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"/>
+    <style name="MyTitleTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" />
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -25,5 +26,9 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
